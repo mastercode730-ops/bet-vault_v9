@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #030508;
+  color: #F1F5F9;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #070A10;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #EAB308 0%, #10B981 100%);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FACC15;
+}
+
+/* Luxury Background Ambient Grids */
+.luxury-bg-mesh {
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(234, 179, 8, 0.12) 0%, transparent 50%),
+    radial-gradient(circle at 100% 50%, rgba(16, 185, 129, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 0% 100%, rgba(244, 63, 94, 0.06) 0%, transparent 40%);
+}
+
+.luxury-grid-pattern {
+  background-size: 36px 36px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+/* Glassmorphism Cards */
+.glass-luxury-card {
+  background: rgba(11, 15, 24, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+}
+
+.glass-luxury-card:hover {
+  border-color: rgba(234, 179, 8, 0.3);
+  box-shadow: 0 25px 50px -12px rgba(234, 179, 8, 0.12);
+}
+
+.glass-nav-pill {
+  background: rgba(7, 10, 16, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(234, 179, 8, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+/* Metallic Text & Glows */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #FFF5C0 0%, #FACC15 40%, #CA8A04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-emerald {
+  background: linear-gradient(135deg, #A7F3D0 0%, #34D399 50%, #059669 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Buttons */
+.btn-gold-luxury {
+  background: linear-gradient(135deg, #FACC15 0%, #EAB308 50%, #CA8A04 100%);
+  color: #030508;
+  font-weight: 800;
+  box-shadow: 0 0 25px rgba(250, 204, 21, 0.35);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-gold-luxury:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 35px rgba(250, 204, 21, 0.55);
+}
+
+.btn-emerald-luxury {
+  background: linear-gradient(135deg, #34D399 0%, #10B981 50%, #059669 100%);
+  color: #030508;
+  font-weight: 800;
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.35);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-emerald-luxury:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 35px rgba(16, 185, 129, 0.55);
+}
+
+.btn-outline-gold {
+  border: 1px solid rgba(250, 204, 21, 0.4);
+  background: rgba(250, 204, 21, 0.05);
+  color: #FDE68A;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+  background: rgba(250, 204, 21, 0.15);
+  border-color: #FACC15;
+  color: #FFFFFF;
+}
+
+.btn-whatsapp-glow {
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  color: #FFFFFF;
+  box-shadow: 0 0 25px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-whatsapp-glow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 35px rgba(37, 211, 102, 0.6);
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Shimmer badge animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}

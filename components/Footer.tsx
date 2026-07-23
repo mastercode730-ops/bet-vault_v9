@@ -1,6 +1,5 @@
 "use client";
-
-import Link from "next/link";
+import Link from 'next/link';
 import { Shield, Zap, HeartHandshake, Lock } from "lucide-react";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
@@ -50,6 +49,8 @@ export default function Footer() {
                 <Link href="/" className="hover:text-gold-400 transition-colors">Home Page</Link>
               </li>
               <li>
+                </li>
+              <li>
                 <Link href="/about" className="hover:text-gold-400 transition-colors">About Bet Vault</Link>
               </li>
               <li>
@@ -95,7 +96,11 @@ export default function Footer() {
         {/* Responsible Gaming & Copyright */}
         <div className="pt-8 border-t border-slate-800/80 text-center sm:flex sm:items-center sm:justify-between gap-4 text-[11px] text-slate-500 font-normal">
           <p>© 2026 Bet Vault v9. All rights reserved. Play Responsibly. 18+ Only.</p>
-          <div className="flex items-center justify-center gap-4 mt-2 sm:mt-0 font-medium">
+          <div className="flex items-center justify-center gap-4 mt-2 sm:mt-0 font-medium flex-wrap">
+            <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Sitemap</a>
+            <span>•</span>
+            <a href="/robots.txt" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Robots.txt</a>
+            <span>•</span>
             <span>Privacy Policy</span>
             <span>Terms of Service</span>
             <span>Responsible Gaming</span>

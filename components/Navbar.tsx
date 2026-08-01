@@ -8,7 +8,7 @@ import { Shield, Zap, Menu, X, MessageSquare, Sparkles, UserCheck } from "lucide
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const waLink = getWhatsAppLink("Hey Bet Vault v9, I want to create my instant betting ID now.");
+  const waLink = getWhatsAppLink("Hey BetVault, I want to create my instant betting ID now.");
 
   useEffect(() => {
     const handleScroll = () => {

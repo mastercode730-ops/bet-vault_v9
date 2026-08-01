@@ -4,8 +4,8 @@ import { ShieldCheck, Zap, HeartHandshake, Award, Users, CheckCircle2, MessageSq
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export const metadata = {
-  title: "About Us | Bet Vault v9 Luxury Exchange Network",
-  description: "Learn why Bet Vault v9 was created to bring 100% financial transparency, instant payouts, and zero-hassle betting to Indian sports fans.",
+  title: "About Us | BetVault Luxury Exchange Network",
+  description: "Learn why BetVault was created to bring 100% financial transparency, instant payouts, and zero-hassle betting to Indian sports fans.",
 };
 
 export default function AboutPage() {
@@ -26,7 +26,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-slate-200 text-base sm:text-lg max-w-2xl mx-auto font-normal">
-          We built Bet Vault v9 because we were tired of watching genuine punters get scammed by shady bookie admins who delay payouts or disappear during IPL season.
+          We built BetVault because we were tired of watching genuine punters get scammed by shady bookie admins who delay payouts or disappear during IPL season.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export default function AboutPage() {
           </p>
 
           <p>
-            That's why we created <strong>Bet Vault v9</strong>. We established direct partnerships with master exchange servers (Diamond Exchange, SkyExchange, Lotus365, LaserBook) and automated our banking processing so payouts land in under 5 minutes without human friction.
+            That's why we created <strong>BetVault</strong>. We established direct partnerships with master exchange servers (Diamond Exchange, SkyExchange, Lotus365, LaserBook) and automated our banking processing so payouts land in under 5 minutes without human friction.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-slate-800">

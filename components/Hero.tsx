@@ -10,7 +10,7 @@ export default function Hero() {
   const [selectedAmount, setSelectedAmount] = useState("₹1,000");
   const [selectedExchange, setSelectedExchange] = useState("Diamond Exchange");
 
-  const customMessage = `Hello Bet Vault v9! I'd like to set up my betting ID right now.\nSport: ${selectedSport}\nDeposit: ${selectedAmount}\nExchange: ${selectedExchange}`;
+  const customMessage = `Hello BetVault! I'd like to set up my betting ID right now.\nSport: ${selectedSport}\nDeposit: ${selectedAmount}\nExchange: ${selectedExchange}`;
   const whatsappUrl = getWhatsAppLink(customMessage);
 
   return (
@@ -27,7 +27,7 @@ export default function Hero() {
           
           <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-300 text-xs font-mono font-extrabold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-gold-400" />
-            <span>BET VAULT v9.0 — VIP DIRECT EXCHANGE HUB</span>
+            <span>BetVault.0 — VIP DIRECT EXCHANGE HUB</span>
           </div>
 
           <h1 className="font-display font-black text-3xl sm:text-5xl lg:text-6xl text-white leading-[1.1] tracking-tight">
@@ -36,7 +36,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-slate-200 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
-            Let's be completely honest — nobody wants to bet with random Telegram bookies who delay your withdrawal for 12 hours after a big IPL win. We created Bet Vault v9 so you can open a verified master exchange ID in under 3 minutes and collect your profits directly in your UPI account.
+            Let's be completely honest — nobody wants to bet with random Telegram bookies who delay your withdrawal for 12 hours after a big IPL win. We created BetVault so you can open a verified master exchange ID in under 3 minutes and collect your profits directly in your UPI account.
           </p>
 
           {/* Featured Female Model Host Banner */}

@@ -14,7 +14,7 @@ export default function BetCalculator() {
   const netProfit = Math.round(stake * (odds - 1));
   const roiPercentage = stake > 0 ? Math.round(((odds - 1) * 100)) : 0;
 
-  const preFilledMessage = `Hi Bet Vault v9! I calculated my bet on the site: ${betType.toUpperCase()} position of ₹${stake} at odds ${odds}. Clean Profit: ₹${netProfit}. Please setup my bet on WhatsApp.`;
+  const preFilledMessage = `Hi BetVault! I calculated my bet on the site: ${betType.toUpperCase()} position of ₹${stake} at odds ${odds}. Clean Profit: ₹${netProfit}. Please setup my bet on WhatsApp.`;
   const whatsappUrl = getWhatsAppLink(preFilledMessage);
 
   return (

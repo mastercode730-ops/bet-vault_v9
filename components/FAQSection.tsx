@@ -30,7 +30,7 @@ export default function FAQSection() {
     },
   ];
 
-  const waLink = getWhatsAppLink("Hi Bet Vault v9 team, I have a custom question about betting IDs.");
+  const waLink = getWhatsAppLink("Hi BetVault team, I have a custom question about betting IDs.");
 
   return (
     <section className="py-20 px-4 sm:px-6 relative luxury-bg-mesh">

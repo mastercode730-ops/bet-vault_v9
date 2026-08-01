@@ -37,11 +37,11 @@ export const BLOG_POSTS: BlogPost[] = [
     content: [
       "If you've played on IPL matches for even one season, you already know the story. You sign up with a random WhatsApp number sent in a Telegram group, make a quick ₹5,000 deposit via UPI, and everything feels smooth while you are placing small bets.",
       "The real test happens when you hit a solid accumulator or win big on a 6-over session bet. You message the admin for a ₹25,000 payout. First comes the silence. Then 'server maintenance'. Then they ask for redundant KYC photos for the fifth time, and eventually, the account gets locked.",
-      "We built Bet Vault v9 precisely to fix this trust deficit in the Indian sports betting community. Here is our direct checklist every punter should follow before depositing money anywhere:",
+      "We built BetVault precisely to fix this trust deficit in the Indian sports betting community. Here is our direct checklist every punter should follow before depositing money anywhere:",
       "1. Always test small instant payouts first. Don't dump ₹50,000 into a fresh ID on day one. Deposit ₹1,000, place a small bet, and hit 'Withdraw' on ₹500 immediately. If the money doesn't land in your GPay or Paytm within 15 minutes, stop playing on that ID.",
       "2. Demand direct exchange panel access. Legitimate bookies provide master panel access to Diamond Exchange, SkyExchange, Lotus365, or LaserBook with genuine live odds. If the odds are manually calculated on a sketchy webpage without exchange verification, walk away.",
       "3. 24/7 Dedicated Human WhatsApp Support. Automated bots cannot handle match disputes when a rain interruption happens in the 18th over. You need real account managers ready on WhatsApp 24/7.",
-      "At Bet Vault v9, our payout rule is simple: 100% guaranteed withdrawal clearance within 5 minutes, 365 days a year. No excuses, no hold-ups, and full privacy protection for every bettor."
+      "At BetVault, our payout rule is simple: 100% guaranteed withdrawal clearance within 5 minutes, 365 days a year. No excuses, no hold-ups, and full privacy protection for every bettor."
     ],
   },
   {
@@ -66,7 +66,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "That's why professional exchange traders strictly stick to the '3% Vault Rule':",
       "Never stake more than 3% to 5% of your total balance on any single match or session market.",
       "If your total betting vault is ₹20,000, your maximum stake per match should be between ₹600 and ₹1,000. Why? Because even if you encounter an unlucky 3-game losing streak, you still retain over 85% of your total balance intact to rebuild steadily.",
-      "Also, never double down during the second innings in panic. When a team loses 3 wickets in the powerplay, emotional punters rush to place frantic bets at bad odds. Take a breath, look at live session statistics on Bet Vault v9, and only place bets where odds offer true value.",
+      "Also, never double down during the second innings in panic. When a team loses 3 wickets in the powerplay, emotional punters rush to place frantic bets at bad odds. Take a breath, look at live session statistics on BetVault, and only place bets where odds offer true value.",
       "Betting on sports is a disciplined marathon. Keep your head cool, manage your bankroll like a business, and let the numbers work for you."
     ],
   },
@@ -87,18 +87,18 @@ export const BLOG_POSTS: BlogPost[] = [
     },
     tags: ["Session Odds", "Fancy Markets", "Cricket Odds", "Back & Lay"],
     content: [
-      "When you log into your Bet Vault v9 master exchange account, you'll immediately see two main tabs: Match Winner (Back / Lay) and Fancy / Session markets (like 6-over run lines, individual batsman score, total sixes).",
+      "When you log into your BetVault master exchange account, you'll immediately see two main tabs: Match Winner (Back / Lay) and Fancy / Session markets (like 6-over run lines, individual batsman score, total sixes).",
       "Which market gives you the highest edge? It depends on your style and whether you are watching live ball-by-ball footage.",
       "Match Winner markets carry lower volatility. Odds adjust smoothly based on run rates, pitch condition, and wickets lost. If you can read team depth and pitch behavior, Backing or Laying teams at major turning points yields consistent profits.",
       "Session and Fancy markets offer high-energy, fast action. You are betting on micro-events — like whether Team A will score over 49.5 runs in the first 6 overs. These odds move with extreme speed during powerplays.",
       "Our golden recommendation: Use Session bets ONLY when you are watching the match live on TV or high-speed stream. Weather, pitch grip, and bowler body language directly influence session outcomes. If you are tracking scores passively, stick to Match Winner or Tournament Outright markets.",
-      "Whichever market you choose, make sure you bet with genuine, unfiltered exchange odds without hidden bookie margins. That is why Bet Vault v9 connects you directly to top-tier exchange servers."
+      "Whichever market you choose, make sure you bet with genuine, unfiltered exchange odds without hidden bookie margins. That is why BetVault connects you directly to top-tier exchange servers."
     ],
   },
   {
     id: "4",
     slug: "instant-withdrawal-systems-how-it-works",
-    title: "Inside Bet Vault v9: How 5-Minute UPI & IMPS Withdrawals Actually Work",
+    title: "Inside BetVault: How 5-Minute UPI & IMPS Withdrawals Actually Work",
     excerpt: "An inside look into our round-the-clock financial processing engine that handles instant deposits and instant payouts 24/7.",
     category: "VIP Guide",
     date: "July 02, 2026",
@@ -113,7 +113,7 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["UPI Payouts", "Instant Withdrawal", "Bet Vault VIP"],
     content: [
       "We frequently get asked by new players: 'How are you able to clear ₹1,00,000 IMPS withdrawals at 2:30 AM on a Sunday immediately after a tense IPL final?'",
-      "The secret is automated bank API pipelines backed by high-liquidity reserve accounts. Traditional local bookies rely on a single person who goes to sleep after matches finish. Bet Vault v9 operates round-the-clock shifts combined with direct banking validation.",
+      "The secret is automated bank API pipelines backed by high-liquidity reserve accounts. Traditional local bookies rely on a single person who goes to sleep after matches finish. BetVault operates round-the-clock shifts combined with direct banking validation.",
       "When you tap 'Request Payout' or message our WhatsApp concierge desk, your account is automatically verified in under 30 seconds. Once confirmed, funds are instantly transferred directly to your bank account or UPI ID (GPay, PhonePe, Paytm, BHIM).",
       "No waiting until Monday morning. No excuses about bank holidays. When you win, your money is yours immediately."
     ],

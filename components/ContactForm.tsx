@@ -14,7 +14,7 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const formattedMsg = `Hi Bet Vault v9 Team!\nName: ${name}\nPhone: ${phone}\nQuery: ${queryType}\nMessage: ${message}`;
+    const formattedMsg = `Hi BetVault Team!\nName: ${name}\nPhone: ${phone}\nQuery: ${queryType}\nMessage: ${message}`;
     const waUrl = getWhatsAppLink(formattedMsg);
     setSubmitted(true);
     window.open(waUrl, "_blank");

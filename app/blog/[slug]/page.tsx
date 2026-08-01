@@ -15,11 +15,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = BLOG_POSTS.find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
-    return { title: "Post Not Found | Bet Vault v9" };
+    return { title: "Post Not Found | BetVault" };
   }
 
   return {
-    title: `${post.title} | Bet Vault v9 Strategy Hub`,
+    title: `${post.title} | BetVault Strategy Hub`,
     description: post.excerpt,
   };
 }
@@ -33,7 +33,7 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   const relatedPosts = BLOG_POSTS.filter((p) => p.slug !== post.slug).slice(0, 2);
-  const waArticleLink = getWhatsAppLink(`Hi Bet Vault v9, I read your article "${post.title}" and would like to setup an instant betting ID.`);
+  const waArticleLink = getWhatsAppLink(`Hi BetVault, I read your article "${post.title}" and would like to setup an instant betting ID.`);
 
   return (
     <article className="py-16 sm:py-24 px-4 sm:px-6 relative luxury-bg-mesh">

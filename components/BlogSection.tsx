@@ -21,7 +21,7 @@ export default function BlogSection() {
               <span>SPORTS BETTING INSIGHTS & GUIDES</span>
             </div>
             <h2 className="font-display font-black text-3xl sm:text-4xl text-white tracking-tight">
-              Bet Vault v9 Strategy & Knowledge Hub
+              BetVault Strategy & Knowledge Hub
             </h2>
             <p className="text-slate-300 text-base max-w-2xl font-normal">
               Practical guides on bankroll management, live session odds analysis, safety checks, and IPL betting tips written by experienced analysts.

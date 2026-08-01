@@ -154,7 +154,7 @@ export default function Markets() {
         {/* Markets Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {marketsData[activeTab].map((market) => {
-            const matchMsg = `Hi Bet Vault v9, I want to place a bet on: ${market.title} (${market.exchange})`;
+            const matchMsg = `Hi BetVault, I want to place a bet on: ${market.title} (${market.exchange})`;
             const waLink = getWhatsAppLink(matchMsg);
 
             return (

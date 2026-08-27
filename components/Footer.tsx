@@ -1,18 +1,18 @@
 "use client";
-import Link from 'next/link';
+import Link from "next/link";
 import { Shield, Zap, HeartHandshake, Lock } from "lucide-react";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export default function Footer() {
-  const waLink = getWhatsAppLink("Hello BetVault, I want to create a new online betting ID.");
+  const waLink = getWhatsAppLink(
+    "Hello BetVault, I want to create a new online betting ID.",
+  );
 
   return (
     <footer className="bg-obsidian-950 border-t border-slate-800 text-slate-400 py-16 px-4 sm:px-6 relative z-10">
       <div className="max-w-7xl mx-auto space-y-12">
-        
         {/* Top Footer Row */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
-          
           {/* Brand Col */}
           <div className="md:col-span-5 space-y-4">
             <Link href="/" className="flex items-center gap-3">
@@ -30,7 +30,9 @@ export default function Footer() {
             </Link>
 
             <p className="text-xs text-slate-300 leading-relaxed font-normal max-w-sm">
-              India's premier luxury sports betting hub. Connecting bettors directly to verified master exchanges with 5-minute instant payouts and 24/7 human WhatsApp support.
+              India's premier luxury sports betting hub. Connecting bettors
+              directly to verified master exchanges with 5-minute instant
+              payouts and 24/7 human WhatsApp support.
             </p>
 
             <div className="flex items-center gap-2 text-[11px] font-mono text-emerald-400 pt-1">
@@ -46,24 +48,72 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs font-semibold">
               <li>
-                <Link href="/" className="hover:text-gold-400 transition-colors">Home Page</Link>
+                <Link
+                  href="/"
+                  className="hover:text-gold-400 transition-colors"
+                >
+                  Home Page
+                </Link>
               </li>
               <li>
-                </li>
-              <li>
-                <Link href="/about" className="hover:text-gold-400 transition-colors">About Bet Vault</Link>
+                <a
+                  href="https://www.Gabbar247.vip"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gold-400 transition-colors"
+                >
+                  Login
+                </a>
               </li>
               <li>
-                <a href="/#markets" className="hover:text-gold-400 transition-colors">Live Sports Markets</a>
+                <a
+                  href="https://www.Gabbar247.vip"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gold-400 transition-colors"
+                >
+                  Register
+                </a>
               </li>
               <li>
-                <a href="/#calculator" className="hover:text-gold-400 transition-colors">Odds & Profit Calculator</a>
+                <Link
+                  href="/about"
+                  className="hover:text-gold-400 transition-colors"
+                >
+                  About Bet Vault
+                </Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-gold-400 transition-colors">Strategy Blog Articles</Link>
+                <a
+                  href="/#markets"
+                  className="hover:text-gold-400 transition-colors"
+                >
+                  Live Sports Markets
+                </a>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-gold-400 transition-colors">VIP Contact Support</Link>
+                <a
+                  href="/#calculator"
+                  className="hover:text-gold-400 transition-colors"
+                >
+                  Odds & Profit Calculator
+                </a>
+              </li>
+              <li>
+                <Link
+                  href="/blog"
+                  className="hover:text-gold-400 transition-colors"
+                >
+                  Strategy Blog Articles
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="hover:text-gold-400 transition-colors"
+                >
+                  VIP Contact Support
+                </Link>
               </li>
             </ul>
           </div>
@@ -74,10 +124,18 @@ export default function Footer() {
               Supported Master Exchanges
             </h4>
             <div className="grid grid-cols-2 gap-2 text-xs font-mono">
-              <div className="p-2 rounded-lg bg-obsidian-900 border border-slate-800 text-gold-300">✓ Diamond Exchange</div>
-              <div className="p-2 rounded-lg bg-obsidian-900 border border-slate-800 text-gold-300">✓ SkyExchange</div>
-              <div className="p-2 rounded-lg bg-obsidian-900 border border-slate-800 text-gold-300">✓ Lotus365</div>
-              <div className="p-2 rounded-lg bg-obsidian-900 border border-slate-800 text-gold-300">✓ LaserBook</div>
+              <div className="p-2 rounded-lg bg-obsidian-900 border border-slate-800 text-gold-300">
+                ✓ Diamond Exchange
+              </div>
+              <div className="p-2 rounded-lg bg-obsidian-900 border border-slate-800 text-gold-300">
+                ✓ SkyExchange
+              </div>
+              <div className="p-2 rounded-lg bg-obsidian-900 border border-slate-800 text-gold-300">
+                ✓ Lotus365
+              </div>
+              <div className="p-2 rounded-lg bg-obsidian-900 border border-slate-800 text-gold-300">
+                ✓ LaserBook
+              </div>
             </div>
 
             <a
@@ -90,23 +148,37 @@ export default function Footer() {
               Get Instant ID via WhatsApp
             </a>
           </div>
-
         </div>
 
         {/* Responsible Gaming & Copyright */}
         <div className="pt-8 border-t border-slate-800/80 text-center sm:flex sm:items-center sm:justify-between gap-4 text-[11px] text-slate-500 font-normal">
-          <p>© 2026 BetVault. All rights reserved. Play Responsibly. 18+ Only.</p>
+          <p>
+            © 2026 BetVault. All rights reserved. Play Responsibly. 18+ Only.
+          </p>
           <div className="flex items-center justify-center gap-4 mt-2 sm:mt-0 font-medium flex-wrap">
-            <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Sitemap</a>
+            <a
+              href="/sitemap.xml"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gold-400 transition-colors"
+            >
+              Sitemap
+            </a>
             <span>•</span>
-            <a href="/robots.txt" target="_blank" rel="noopener noreferrer" className="hover:text-gold-400 transition-colors">Robots.txt</a>
+            <a
+              href="/robots.txt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gold-400 transition-colors"
+            >
+              Robots.txt
+            </a>
             <span>•</span>
             <span>Privacy Policy</span>
             <span>Terms of Service</span>
             <span>Responsible Gaming</span>
           </div>
         </div>
-
       </div>
     </footer>
   );

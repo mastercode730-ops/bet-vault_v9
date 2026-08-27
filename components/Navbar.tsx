@@ -3,12 +3,22 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { getWhatsAppLink } from "@/lib/whatsapp";
-import { Shield, Zap, Menu, X, MessageSquare, Sparkles, UserCheck } from "lucide-react";
+import {
+  Shield,
+  Zap,
+  Menu,
+  X,
+  MessageSquare,
+  Sparkles,
+  UserCheck,
+} from "lucide-react";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const waLink = getWhatsAppLink("Hey BetVault, I want to create my instant betting ID now.");
+  const waLink = getWhatsAppLink(
+    "Hey BetVault, I want to create my instant betting ID now.",
+  );
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,11 +33,14 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className={`sticky top-0 z-50 transition-all duration-300 px-4 sm:px-6 py-3 ${
-      scrolled ? "glass-nav-pill py-2.5 shadow-2xl" : "bg-obsidian-950/80 backdrop-blur-md border-b border-white/5"
-    }`}>
+    <header
+      className={`sticky top-0 z-50 transition-all duration-300 px-4 sm:px-6 py-3 ${
+        scrolled
+          ? "glass-nav-pill py-2.5 shadow-2xl"
+          : "bg-obsidian-950/80 backdrop-blur-md border-b border-white/5"
+      }`}
+    >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        
         {/* Brand Logo */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-gold-400 via-gold-500 to-amber-600 flex items-center justify-center text-obsidian-950 shadow-lg shadow-gold-500/20 group-hover:scale-105 transition-all">
@@ -54,7 +67,9 @@ export default function Navbar() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
           </span>
-          <span className="text-slate-200 font-medium">4,812 Players Online</span>
+          <span className="text-slate-200 font-medium">
+            4,812 Players Online
+          </span>
           <span className="text-gold-400 font-mono text-[11px] font-bold border-l border-slate-700 pl-2">
             IPL & Casino Live
           </span>
@@ -71,15 +86,37 @@ export default function Navbar() {
           <a href="/#markets" className="hover:text-gold-400 transition-colors">
             Markets
           </a>
-          <a href="/#calculator" className="hover:text-gold-400 transition-colors">
+          <a
+            href="/#calculator"
+            className="hover:text-gold-400 transition-colors"
+          >
             Odds Calc
           </a>
           <Link href="/blog" className="hover:text-gold-400 transition-colors">
             Blog
           </Link>
-          <Link href="/contact" className="hover:text-gold-400 transition-colors">
+          <Link
+            href="/contact"
+            className="hover:text-gold-400 transition-colors"
+          >
             Contact
           </Link>
+          <a
+            href="https://www.Gabbar247.vip"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gold-400 transition-colors"
+          >
+            Login
+          </a>
+          <a
+            href="https://www.Gabbar247.vip"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gold-400 transition-colors"
+          >
+            Register
+          </a>
         </nav>
 
         {/* WhatsApp Action CTA */}
@@ -101,7 +138,11 @@ export default function Navbar() {
           className="md:hidden p-2 rounded-xl bg-obsidian-900 border border-slate-800 text-slate-200 hover:text-gold-400 transition-colors"
           aria-label="Toggle Navigation Menu"
         >
-          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {mobileMenuOpen ? (
+            <X className="w-6 h-6" />
+          ) : (
+            <Menu className="w-6 h-6" />
+          )}
         </button>
       </div>
 
@@ -110,7 +151,9 @@ export default function Navbar() {
         <div className="md:hidden mt-3 pt-4 border-t border-slate-800/80 px-2 pb-5 space-y-3 bg-obsidian-950/95 backdrop-blur-xl rounded-2xl p-4">
           <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-obsidian-900 text-xs mb-2 border border-slate-800">
             <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span className="text-slate-200 font-medium">4,812 Bettors Online Right Now</span>
+            <span className="text-slate-200 font-medium">
+              4,812 Bettors Online Right Now
+            </span>
           </div>
 
           <Link
@@ -155,6 +198,24 @@ export default function Navbar() {
           >
             VIP Contact Support
           </Link>
+          <a
+            href="https://www.Gabbar247.vip"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block px-4 py-2.5 rounded-xl text-slate-200 hover:bg-obsidian-900 font-semibold text-sm"
+          >
+            Login
+          </a>
+          <a
+            href="https://www.Gabbar247.vip"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block px-4 py-2.5 rounded-xl text-slate-200 hover:bg-obsidian-900 font-semibold text-sm"
+          >
+            Register
+          </a>
 
           <a
             href={waLink}

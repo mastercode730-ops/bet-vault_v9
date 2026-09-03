@@ -9,24 +9,44 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      q: "How long does it take to receive my withdrawal into my UPI account?",
-      a: "Our average payout processing time is under 5 minutes. Once you submit a withdrawal request or message our 24/7 WhatsApp VIP desk, our system verifies your balance and dispatches funds directly via GPay, PhonePe, Paytm, or IMPS bank transfer.",
+      q: "What is BetVault?",
+      a: "BetVault is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information.",
     },
     {
-      q: "What is the minimum deposit required to get started?",
-      a: "You can create your betting ID with a starting deposit as low as ₹500. We encourage new punters to test small deposits and test our instant withdrawal process right after.",
+      q: "How does a BetVault ID work?",
+      a: "An account ID is generally used to identify a user account. Refer to BetVault's current account instructions and terms for the exact process.",
     },
     {
-      q: "Which master exchanges do you provide access to?",
-      a: "We provide verified, direct master panel IDs for Diamond Exchange, SkyExchange, Lotus365, and LaserBook. All IDs come with unfiltered live market lines and high-speed odds.",
+      q: "How can I access BetVault?",
+      a: "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site.",
     },
     {
-      q: "Are my personal details and financial transactions private?",
-      a: "100% confidential. All communication and banking validations are protected under 256-bit SSL encryption. We never share punter data with external aggregators.",
+      q: "What sports are available on BetVault?",
+      a: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability.",
     },
     {
-      q: "What happens if an IPL match is interrupted or cancelled due to rain?",
-      a: "All match bets follow official exchange rules. If a match is declared void or abandonded, staked amounts are instantly refunded back to your betting balance without deductions.",
+      q: "Does BetVault provide live sports information?",
+      a: "Check the site's current sports section for any live-event information and the terms that apply to its use.",
+    },
+    {
+      q: "How can I get help with my BetVault account?",
+      a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts.",
+    },
+    {
+      q: "How do I find BetVault login information?",
+      a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel.",
+    },
+    {
+      q: "What payment options are supported?",
+      a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts.",
+    },
+    {
+      q: "What should I do if I have trouble accessing my account?",
+      a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel.",
+    },
+    {
+      q: "Where can I find the latest BetVault updates?",
+      a: "Refer to BetVault's current website information and terms for the most accurate answer.",
     },
   ];
 

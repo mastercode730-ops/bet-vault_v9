@@ -1,4 +1,4 @@
-const DEFAULT_PHONE = "8360750829"; // Dedicated Bet Vault WhatsApp Concierge Number: https://wa.me/8360750829
+const DEFAULT_PHONE = "918360750829"; // Dedicated Bet Vault WhatsApp Concierge Number: https://wa.me/918360750829
 
 export function getWhatsAppLink(message?: string, phone: string = DEFAULT_PHONE): string {
   const encodedMsg = encodeURIComponent(
